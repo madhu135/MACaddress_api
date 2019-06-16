@@ -46,4 +46,5 @@ If you find any difficulties in running the shell script you can just run the co
  output looks like :
                                                                                            
                Mac address 44:38:39:ff:ef:57  is associated with company Cumulus Networks, Inc  
+               Mac address 00-14-22-01-23-45  is associated with company Dell Inc
 
