@@ -36,12 +36,12 @@ Running the tests
    
    After you run the above command the Bash script will ask you to enter the `APIKEY` and will take the list of `macaddress` for which you want to find the company details from a file named `macaddress.txt` as input and shows the output like below.
 
-If you find any difficulties in running the shell script you can just run the command .`/dockerwrapper.sh -help` , it will show the directions on how to run the script.
+If you find any difficulties in running the shell script you can just run the command .`/dockerwrapper.sh -help` , it will show the directions on command line on  how to run the script.
   
    when you run the script it will prompt user to enter the APIKEY and MACADDRESS
                     
                     Enter the APIKEY: XXXXXXXXXXXXXXXXXXXX
-                    Enter the MACADDRESS: 00:00:00:00:00:00
+                    
  
  output looks like :
                                                                                            
