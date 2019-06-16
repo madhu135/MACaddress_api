@@ -31,13 +31,13 @@ Running the tests
                   $docker run test xxxxxxxxxxxxxxxxxx   00:00:00:00:00:00
   
  Step 3: Now Implemented Bash scrpt to containerized application
-
-     After you run the above command the Bash script will ask you to enter the APIKEY and will take the list of macaddress for which you want to find the company details from a file named macaddress.txt as input and shows the output like below.
-
-If you find any difficulties in running the shell script you can just run the command ./dockerwrapper.sh -help, it will show the directions on how to run the script.
-  
-                     ./script.sh
    
+                        `./dockerwrapper.sh`
+   
+   After you run the above command the Bash script will ask you to enter the `APIKEY` and will take the list of `macaddress` for which you want to find the company details from a file named `macaddress.txt` as input and shows the output like below.
+
+If you find any difficulties in running the shell script you can just run the command .`/dockerwrapper.sh -help` , it will show the directions on how to run the script.
+  
    when you run the script it will prompt user to enter the APIKEY and MACADDRESS
                     
                     Enter the APIKEY: XXXXXXXXXXXXXXXXXXXX
