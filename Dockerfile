@@ -13,6 +13,6 @@ ADD macaddress.py /home/myapp
 
 FROM python:3
 #Copying the python program from base image
-ADD macaddress.py /
+COPY --from=0  /home/myapp/macaddress.py /
 #using ENTRYPOINT to execute the program 
 ENTRYPOINT ["python3", "/macaddress.py"]
