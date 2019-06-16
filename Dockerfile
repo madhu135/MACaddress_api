@@ -14,6 +14,6 @@ RUN pip  install --user -r  requirements.txt
 
 FROM base
 #Copying the python program to working directory
-ADD api.py /home/myapp
+ADD macaddress.py /home/myapp
 #using ENTRYPOINT to execute the program 
-ENTRYPOINT ["python3", "/home/myapp/api.py"]
+ENTRYPOINT ["python3", "/home/myapp/macaddress.py"]

@@ -1,6 +1,6 @@
 #!/bin/bash
 if [ "$1" = "-help" ]; then 
-     echo "$(<README.md)"
+     echo "$(<help.txt)"
 else
     read -p "Please Enter Your APIKEY: "  APIKEY
     if [ -z "$APIKEY"  ]; then 
