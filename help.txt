@@ -1,6 +1,9 @@
-welcome
+welcome.
 
-This will show  you  how to run the ./dockerwrapper.sh script 
+This Bash script is  to build the Docker image and run the container as well.
+
+This document will show you how to run the ./dockerwrapper.sh script 
+
 After you run the command ./dockerwrapper.sh, it will ask you to enter the `APIKEY` and will take list of `macaddress` for which you want to find the company detials from a file named `macaddress.txt` as input and shows the output.
 
 Instructions to run 
