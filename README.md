@@ -38,12 +38,12 @@ Running the tests
 
 If you find any difficulties in running the shell script you can just run the command .`/dockerwrapper.sh -help` , it will show the directions on command line on  how to run the script.
   
-   when you run the script it will prompt user to enter the APIKEY and MACADDRESS
+   when you run the script it will prompt user to enter the APIKEY 
                     
                     Enter the APIKEY: XXXXXXXXXXXXXXXXXXXX
                     
  
- output looks like :
+The output looks like :
                                                                                            
                Mac address 44:38:39:ff:ef:57  is associated with company Cumulus Networks, Inc  
                Mac address 00-14-22-01-23-45  is associated with company Dell Inc
