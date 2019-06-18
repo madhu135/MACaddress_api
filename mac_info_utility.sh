@@ -5,7 +5,10 @@ else
     read -p "Please Enter Your APIKEY: "  APIKEY
     if [ -z "$APIKEY"  ]; then 
      echo "Please enter the Apikeiy"
-    else 
+    elif [ ! -f  macaddress.txt ] || [ ! -s  macaddress.txt ]; then
+          echo "Please check whether there is macaddress.txt file is present"
+          echo " Please enter the Macaddress to identify the company name  in the macaddress.txt file"
+     else 
         for i in `cat macaddress.txt`;
         do
          #Build the image from the Docker file and redirect the output to a file
