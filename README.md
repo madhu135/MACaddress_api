@@ -11,9 +11,9 @@ Getting Started
 Prerequisites
 ==========================
   
-   Generate an API key to query the result from the website https://macaddress.io/ .
+   1.Generate an API key to query the result from the website https://macaddress.io/ .
    
-   List all the Macaddress for which you want to find company details  in a `macaddress.txt` file which will read as input from script.
+   2.List all the Macaddress for which you want to find company details  in a `macaddress.txt` file which will read as input from script.
    
 Workflow
 ======================
