@@ -29,11 +29,11 @@ Step2: Now use multi-stage builds to build the image and to run the container.Do
                        
                        docker run <IMAGENAME> <APIKEY> <MACADDRESS>
                        
- Step3:  Use the `./dockerwrapper.sh`   wrapper script which abstract application logic as well as image building process.It will give  the desired result.
+ Step3:  Use the `./mac_info_utility.sh`   wrapper script which abstract application logic as well as image building process.It will give  the desired result.
  
  After you run the above command the Bash script will ask you to enter the `APIKEY` and will take the list of `macaddress` for which you want to find the company details from a file named `macaddress.txt` as input and shows the output like below.
 
-If you find any difficulties in running the shell script you can just run the command .`/dockerwrapper.sh -help` , it will show the directions on command line on  how to run the script.
+If you find any difficulties in running the shell script you can just run the command .`/mac_info_utility.sh -help` , it will show the directions on command line on  how to run the script.
   
  
                  
@@ -43,7 +43,7 @@ usage
   
  Use the below  wrapper script which abstracts application logic as well as image building process,just running the same will give the desired result.
    
-                        `./dockerwrapper.sh`
+                        `./mac_info_utility.sh`
   
    The script will prompt the user to enter the API key                   
                     
