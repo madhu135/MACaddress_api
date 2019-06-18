@@ -2,14 +2,14 @@ welcome.
 
 This Bash script is  to build the Docker image and run the container as well.
 
-This document will show you how to run the ./dockerwrapper.sh script 
+This document will show you how to run the ./mac_info_utility.sh script 
 
 After you run the command ./dockerwrapper.sh, it will ask you to enter the `APIKEY` and will take list of `macaddress` for which you want to find the company detials from a file named `macaddress.txt` as input and shows the output.
 
 Instructions to run 
 ========================
 
-1. Run the shell script ./dockerwrapper.sh
+1. Run the shell script ./mac_info_utility.sh
 
 2. command line will prompt to enter the api key 
 
