@@ -7,7 +7,7 @@ else
      echo "Please enter the Apikeiy"
     elif [ ! -f  macaddress.txt ] || [ -z "$(cat macaddress.txt)" ]; then
           echo "Please check whether there is macaddress.txt file is present"
-          echo " Please enter the Macaddress to identify the company name  in the macaddress.txt file"
+          echo " Please enter the Macaddress as input  to identify the company name associated with that in the macaddress.txt file"
      else 
         for i in `cat macaddress.txt`;
         do
