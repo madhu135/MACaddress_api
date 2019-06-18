@@ -19,20 +19,9 @@ usage
 ===============================
   
 Running the tests
-   
- Step 1: use multi-stage builds to build the Image.
-       First one is the base image and all packages that need to execute the program.
-       Second is to copy the program to working directory and used ENTRYPOINT to execute the image
-    
-                   $ docker build -t <IMAGENAME> .
-          
- Step 2: Now Run the Image using docker run and pass the arguments along with docker run
-    
-                  $docker run <IMAGENAME> <APIKEY> <MACADDRESS>
-                   
-                  $docker run test xxxxxxxxxxxxxxxxxx   00:00:00:00:00:00
   
- Step 3: Now Implemented Bash scrpt to containerized application
+  
+ Now Implemented Bash scrpt to containerized application
    
                         `./dockerwrapper.sh`
    
