@@ -29,7 +29,7 @@ Step2: Now use multi-stage builds to build the image and to run the container.Do
                        
                        docker run <IMAGENAME> <APIKEY> <MACADDRESS>
                        
- Step3:  Now Implemented Bash scrpt to containerized application `./dockerwrapper.sh`
+ Step3:  Now Implemented Bash scrpt to containerized application `./dockerwrapper.sh`.It will give you the desired result.
  
  After you run the above command the Bash script will ask you to enter the `APIKEY` and will take the list of `macaddress` for which you want to find the company details from a file named `macaddress.txt` as input and shows the output like below.
 
