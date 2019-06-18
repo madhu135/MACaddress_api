@@ -5,7 +5,7 @@ else
     read -p "Please Enter Your APIKEY: "  APIKEY
     if [ -z "$APIKEY"  ]; then 
      echo "Please enter the Apikeiy"
-    elif [ ! -f  macaddress.txt ] || [ ! -s  macaddress.txt ]; then
+    elif [ ! -f  macaddress.txt ] || [ -z "$(cat macaddress.txt)" ]; then
           echo "Please check whether there is macaddress.txt file is present"
           echo " Please enter the Macaddress to identify the company name  in the macaddress.txt file"
      else 
