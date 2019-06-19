@@ -1,10 +1,10 @@
-welcome.
+Welcome.
 
 This Bash script is  to build the Docker image and run the container as well.
 
 This document will show you how to run the ./mac_info_utility.sh script 
 
-After you run the command ./dockerwrapper.sh, it will ask you to enter the `APIKEY` and will take list of `macaddress` for which you want to find the company detials from a file named `macaddress.txt` as input and shows the output.
+After you run the command ./mac_info_utility.sh, it will ask you to enter the `APIKEY` and will take list of `macaddress` for which you want to find the company detials from a file named `macaddress.txt` as input and shows the output.
 
 Instructions to run 
 ========================
@@ -14,8 +14,10 @@ Instructions to run
 2. command line will prompt to enter the api key 
 
          Enter the APIKEY: XXXXXXXXXXXXXXXXXXXX
+        
+ Make sure that Macaddress for which you want to identify the company details are placed in macaddress.txt file
 
-s. If you press enter after entering the apikey it will show the output like 
+3. If you press enter after entering the apikey it will show the output like 
 
 
     Mac address 44:38:39:ff:ef:57  is associated with company Cumulus Networks, Inc  
